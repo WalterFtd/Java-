@@ -21,10 +21,14 @@ public class LoopTest{
 		//定义变量，保存求和
 		int sum = 0;
 		//for循环，循环中的变量，进行奇数的判断，%2==1
-		for(int i = 0;i<100;i++){
+		for(int i = 0;i<=100;i++){
 			if(i%2==1)
 				sum +=i;
 		}
 		System.out.println(sum);
+		
+		/*for(int i = 1;i<=100;i+=2){
+			sun+=i;
+		}*/
 	}
 }
